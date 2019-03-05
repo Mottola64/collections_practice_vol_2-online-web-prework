@@ -40,7 +40,7 @@ def first_wa(array)
   first_wa = NIL
   array.each do |element|
     if element.match(/wa/)
-      first_was = element
+      first_wa = element
       break
     end
   end
